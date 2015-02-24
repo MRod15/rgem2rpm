@@ -4,8 +4,8 @@
 #
 lib = File.dirname(__FILE__)
 
-require lib + '/rgem2rpm/version'
-require lib + '/rgem2rpm/argumentparse'
-require lib + '/rgem2rpm/converter'
-require lib + '/rgem2rpm/gem'
-require lib + '/rgem2rpm/rpm'
+require File.join(lib, 'rgem2rpm','version')
+require File.join(lib, 'rgem2rpm','argumentparse')
+require File.join(lib, 'rgem2rpm','converter')
+require File.join(lib, 'rgem2rpm','gem')
+require File.join(lib, 'rgem2rpm','rpm')
